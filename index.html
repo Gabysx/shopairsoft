@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/output.css" />
+    <title>Loja AirSoft</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center bg-opacity-50"
+    >
+      <div class="w-full h-full flex flex-col justify-center items-center">
+        <img
+          src="./assets/image/arma-4.webp"
+          alt="Logo AirSoft Monster"
+          class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+        />
+        <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Airsoft Monster</h1>
+        <span class="text-white font-medium">
+          Rua HedShot 10, São Paulo - SP
+        </span>
+
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id=" date-span">
+          <span class="text-white font-medium">
+            Seg à Dom - 18:00 às 22:00
+          </span>
+        </div>
+      </div>
+    </header>
+    <h2 class="text-3xl md:text-4xl font-bold text-center mt-9 mb-6">
+      Conheça nosso Catálogo
+    </h2>
+
+    <!-- Menu -->
+
+    <div id="menu">
+      <h2 class="font-bold text-2xl md:text-3xl mb-4 px-6">Armas</h2>
+      <main
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-20 mx-auto max-w-7xl px-6 mb-16"
+      >
+        <!-- Produto Item -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/image/arma-1.webp"
+            alt="Pistola Jack"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Pistola Jack</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+            <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 1800</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Pistola Jack"
+                data-price="1800"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-2">
+          <img
+            src="./assets/image/arma-2.webp"
+            alt="Pistola Louise"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Pistola Louise</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+           <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 1700</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Pistola Louise"
+                data-price="1700"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-2">
+          <img
+            src="./assets/image/arma-3.webp"
+            alt="Pistola Clarice"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Pistola Clarice</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+            <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 1600</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Pistola-Clarice"
+                data-price="1600"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-2">
+          <img
+            src="./assets/image/arma-4.webp"
+            alt="Pistola Duck"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Pistola Duck</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+           <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 2500</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Pistola Duck"
+                data-price="2500"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="mx-auto max-w-7xl my-2">
+        <h2 class="font-bold text-2xl md:text-3xl px-6">Snipers</h2>
+      </div>
+
+      <!-- Grid Bebidas -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-20 mx-auto max-w-7xl px-6 mb-32"
+        id="menu"
+      >
+        <div class="flex gap-2 w-full">
+          <img
+            src="./assets/image/sniper-2.webp"
+            alt="Arma Sniper Black"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div class="w-full">
+            <p class="font-bold">Sniper Black</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+       <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 5000</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Sniper-Black"
+                data-price="5000"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 w-full">
+          <img
+            src="./assets/image/sniper-1.webp"
+            alt="Arma Sniper Green"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div class="w-full">
+            <p class="font-bold">Sniper Green</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+            <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 5500</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Sniper-Green"
+                data-price="5500"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 w-full">
+          <img
+            src="./assets/image/sniper-3.webp"
+            alt="Arma Sniper Gold"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div class="w-full">
+            <p class="font-bold">Sniper Gold</p>
+            <p class="text-sm">
+              Design realista, materiais duráveis e excelente potência para
+              treinos, jogos e colecionadores.
+            </p>
+            <div
+              class="flex items-center gap-2 justify-between mt-3 px-4 py-2 bg-slate-950 rounded"
+            >
+              <p class="font-bold text-lg py-2  text-white">R$ 8000</p>
+              <button
+                class="bg-green-600 px-4 py-0.5 rounded hover:bg-green-700 add-to-cart-btn"
+                data-name="Sniper-Gold"
+                data-price="8000"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="bg-black/60 w-full h-full fixed top-0 left-0 z[99] hidden justify-center items-center"
+    >
+      <div class="bg-white p-5 rounded-md min-w-[80%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+        <div id="cart-items" class="flex justify-between mb-2 flex-col">
+          <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+          <p class="font-bold mt-4">Endereço de Entrega:</p>
+          <input
+            type="text"
+            placeholder="Digite seu endereço completo..."
+            id="address"
+            class="w-full border-2 p-1 rounded my-1"
+          />
+          <p class="text-red-500 text-bold hidden" id="address-warn">
+            Digite seu endereço completo!
+          </p>
+
+          <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-modal-btn">Fechar</button>
+            <button
+              id="checkout-bnt"
+              class="bg-green-500 text-white px-4 py-1 rounded hover:bg-green-700"
+            >
+              Finalizar Pedido
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer
+      class="w-full bg-slate-950 py-3 fixed bottom-0 z-40 flex items-center justify-center"
+    >
+      <button
+        class="flex items-center gap-2 text-white font-bold"
+        id="cart-btn"
+      >
+        <span id="cart-count" class="font-extrabold">0</span>
+        Itens no Carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </footer>
+  </body>
+</html>
